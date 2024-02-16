@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "removeComments": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "rootDir": "animation",
+    "declaration": true,
+    "declarationDir": "types",
+    "noImplicitAny": false,
+    "strict": false,
+  },
+  "include": [
+    "animation"
+  ]
+}
