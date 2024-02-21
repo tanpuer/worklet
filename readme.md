@@ -5,7 +5,7 @@ worklet的介绍可参考react-native-reanimated和微信小程序worklet。
 ### 运行
 1. cd node-worklet-js
 2. npx babel animation --out-dir dist --extensions ".ts" --copy-files --no-copy-ignored
-3. cd node-worklet/nodejs && npm compile && npm install && node-gyp rebuild --debug
+3. cd node-worklet/nodejs && sh compile && npm install && node-gyp rebuild --debug
 5. node index.js
 
 ### C++
