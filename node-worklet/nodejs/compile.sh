@@ -15,7 +15,7 @@ rm -rf $DIR
 mkdir -p $DIR
 mkdir -p $OUTPUT
 cd $DIR
-cmake ../../ -DCMAKE_BUILD_TYPE=Debug -DHERON_BUILD_MACOS=true -DHERON_MINI_PROGRAM=true -DHERON_REACT=true -DHERON_WEEX=false -DAGIL_NS_DEBUG=true -DAGILREACT_BUILD_MACOS=ON -DAGILREACT_BUILD_NODEJS=true $XCODE
+cmake ../../ -DCMAKE_BUILD_TYPE=Debug $XCODE
 $MAKE
 cd ..
 echo "======= finished gen the $DIR project ======="
