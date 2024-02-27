@@ -3,10 +3,9 @@
 worklet的介绍可参考react-native-reanimated和微信小程序worklet。
 
 ### 运行
-1. cd node-worklet-js
-2. npx babel animation --out-dir dist --extensions ".ts" --copy-files --no-copy-ignored
-3. cd node-worklet/nodejs && sh compile && npm install && node-gyp rebuild --debug
-5. node index.js
+1. cd node-worklet-js && npm run babel
+2. cd node-worklet/nodejs && sh compile && npm install && node-gyp rebuild --debug
+3. node index.js
 
 ### C++
 整体剥离RN代码，移植到其他具有js-ui双线程模型的UI框架中。
